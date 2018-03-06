@@ -1,0 +1,18 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~1",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "REMOTEDEBUGGINGVERSION": "11.0.611103.400",
+    "notifyEmail": "YOUR EMAIL ADDRESS",
+    "AzureWebJobsDashboard": "AZURE STORAGE CONNECTION STRING",
+    "WEBSITE_NODE_DEFAULT_VERSION": "6.5.0",
+    "WEBSITE_AUTH_AUTO_AAD": "False",
+    "sendgridAPIKey": "SEND GRID API KEY",
+    "WEBSITE_SITE_NAME": "captchame",
+    "WEBSITE_AUTH_LOGOUT_PATH": "/.auth/logout",
+    "AzureWebJobsStorage": "AZURE STORAGE CONNECTION STRING"
+  }
+}
