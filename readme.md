@@ -205,7 +205,7 @@ All results for the forms are stored in Table Storage. You can view Table Storag
 
 ![Add Account](images/add-account.png)
 
-Once Storage Explorer is connected, you can drill down into the storage account for your Function App and find the table called log and view the results.
+Once Storage Explorer is connected, you can drill down into the storage account for your Function App and find the with the named supplied in the **captchaSet** input and view the results. If captchaSet was not supplied, the name will be **forms**.
 
 ![Azure Storage Explorer](images/azure-storage.png)
 
