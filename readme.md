@@ -68,7 +68,7 @@ There are two ways to use this function -- one with HTTP redirects and another w
 
 ## Configure Email Function (Optional)
 
-1. If you want the function to send you an email whenever a form is successfully submitted, then complete the following steps.
+If you want the function to send you an email whenever a form is successfully submitted, then complete the following steps.
 
 1. You'll need a SendGrid Account. You can get a free SendGrid account from Azure that can send up to 25,000 messages a month. Learn how to [set it up here](https://docs.microsoft.com/en-us/azure/sendgrid-dotnet-how-to-send-email). Once the account is setup, get an API Key from SendGrid.
 
