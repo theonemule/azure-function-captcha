@@ -164,7 +164,7 @@ All other fields are data fields and will be recorded as data.
 
 		//Use the XHR object to send a request.
 		var request = new XMLHttpRequest();
-		request.open("POST", "https://captchame.azurewebsites.net/api/GetCaptcha");
+		request.open("POST", "https://yourfunctionapp.azurewebsites.net/api/GetCaptcha");
 		request.setRequestHeader('Content-Type','application/x-www-form-urlencoded')
 		request.withCredentials = true; 
 		request.send(formData);
@@ -176,7 +176,7 @@ All other fields are data fields and will be recorded as data.
 					alert("Captcha was successful!")
 				}else{
 					alert("Captcha was not successful. Please try again.")
-					document.getElementById("captchaImg").src="https://captchame.azurewebsites.net/api/GetCaptcha"
+					document.getElementById("captchaImg").src="https://yourfunctionapp.azurewebsites.net/api/GetCaptcha"
 				}
 		   }
 		};    
@@ -190,7 +190,7 @@ All other fields are data fields and will be recorded as data.
 	<p>Last Name: <input type="text" id="lastName"></p>
 	<p>Birthday: <input type="text" id="DOB"></p>
 	<input type="hidden" value="nameanddob" id="captchaSet">
-	<img id="captchaImg" src="https://captchame.azurewebsites.net/api/GetCaptcha">
+	<img id="captchaImg" src="https://yourfunctionapp.azurewebsites.net/api/GetCaptcha">
 	<p>CAPTCHA: <input type="text" id="captcha"></p>
 	<input type="button" value="Submit" onclick="SubmitForm()">
 
