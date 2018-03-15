@@ -44,7 +44,7 @@ There are two ways to use this function -- one with HTTP redirects and another w
 	If you are integrating this with an existing app, simply move the function's folder.
 
 	````
-	robocopy /E /MOV  azure-function-captcha/GetChaptcha .
+	robocopy /E /MOV  azure-function-captcha/GetCaptcha .
 	````
 
 
@@ -57,7 +57,7 @@ There are two ways to use this function -- one with HTTP redirects and another w
 1. Change directories to the function.
 
 	````
-	cd GetChaptcha
+	cd GetCaptcha
 	````
 
 1. Install the NodeJS dependencies.
